@@ -105,12 +105,19 @@
 #define RCD_COMPUTER 5
 #define RCD_FURNISHING 6
 
+<<<<<<< HEAD
 #define RCD_UPGRADE_FRAMES 0
 #define RCD_UPGRADE_SIMPLE_CIRCUITS	1
 #define RCD_UPGRADE_SILO_LINK 2
 #define RCD_UPGRADE_FURNISHING 3
+=======
+#define RCD_UPGRADE_FRAMES (1<<0)
+#define RCD_UPGRADE_SIMPLE_CIRCUITS (1<<1)
+#define RCD_UPGRADE_SILO_LINK (1<<2)
+#define RCD_UPGRADE_FURNISHING (1<<3)
+>>>>>>> bd5228e571f... RCD upgrades now work again (#56931)
 
-#define RPD_UPGRADE_UNWRENCH 0
+#define RPD_UPGRADE_UNWRENCH (1<<0)
 
 #define RCD_WINDOW_FULLTILE "full tile"
 #define RCD_WINDOW_DIRECTIONAL "directional"
