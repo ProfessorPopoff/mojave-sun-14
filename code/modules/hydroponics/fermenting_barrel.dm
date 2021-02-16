@@ -56,7 +56,13 @@
 	else
 		return ..()
 
+<<<<<<< HEAD
 /obj/structure/fermenting_barrel/attack_hand(mob/user)
+=======
+/obj/structure/fermenting_barrel/attack_hand(mob/user, list/modifiers)
+	if(!can_open)
+		return
+>>>>>>> 5c22a0cfc10... Converts many proc overrides to properly use list/modifiers, lots of other smaller things (#56847)
 	open = !open
 	if(open)
 		reagents.flags &= ~(DRAINABLE)
