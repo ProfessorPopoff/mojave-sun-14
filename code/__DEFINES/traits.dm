@@ -237,9 +237,17 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 #define TRAIT_MARTIAL_ARTS_IMMUNE "martial_arts_immune" // nobody can use martial arts on this mob
 #define TRAIT_DUFFEL_CURSED "duffel_cursed" //You've been cursed with a living duffelbag, and can't have more added
 /// Prevents mob from riding mobs when buckled onto something
+<<<<<<< HEAD
 #define TRAIT_CANT_RIDE			"cant_ride"
 #define TRAIT_BLOODY_MESS		"bloody_mess" //from heparin, makes open bleeding wounds rapidly spill more blood
 #define TRAIT_COAGULATING		"coagulating" //from coagulant reagents, this doesn't affect the bleeding itself but does affect the bleed warning messages
+=======
+#define TRAIT_CANT_RIDE "cant_ride"
+#define TRAIT_BLOODY_MESS "bloody_mess" //from heparin, makes open bleeding wounds rapidly spill more blood
+#define TRAIT_COAGULATING "coagulating" //from coagulant reagents, this doesn't affect the bleeding itself but does affect the bleed warning messages
+/// From anti-convulsant medication against seizures.
+#define TRAIT_ANTICONVULSANT "anticonvulsant"
+>>>>>>> ef80ed19352... Addiction rework (#56923)
 /// The holder of this trait has antennae or whatever that hurt a ton when noogied
 #define TRAIT_ANTENNAE	"antennae"
 /// Blowing kisses actually does damage to the victim
